@@ -55,11 +55,11 @@ ol {
   color: #404bbf;
 }
 
-.first-section {
+.service-ordering {
   background-color: #2e2f42;
 }
 
-.h-one {
+h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -82,7 +82,7 @@ ol {
   background-color: #404bbf;
 }
 
-.features-li-h {
+.features.-list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -90,18 +90,18 @@ ol {
   color: #2e2f42;
 }
 
-.features-li-p {
+.features-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.third-section {
+.our-team {
   background-color: #f4f4fd;
 }
 
-.our-team-h {
+.our-team-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -110,11 +110,11 @@ ol {
   color: #2e2f42;
 }
 
-.our-team-li {
+.our-team-item {
   background-color: #ffffff;
 }
 
-.our-team-li-h {
+.team-member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -122,13 +122,13 @@ ol {
   color: #2e2f42;
 }
 
-.our-team-li-p {
+.team-member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.our-portfolio-h {
+.our-portfolio-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -137,7 +137,7 @@ ol {
   color: #2e2f42;
 }
 
-.our-portfolio-li-h {
+.our-portfolio-list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -145,7 +145,7 @@ ol {
   color: #2e2f42;
 }
 
-.our-portfolio-li-p {
+.our-portfolio-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -154,7 +154,7 @@ ol {
   background-color: #2e2f42;
 }
 
-.footer-p {
+.footer-text {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -162,4 +162,43 @@ ol {
 
 .logo-part-footer {
   color: #f4f4fd;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+}
+
+.our-team-members {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.our-portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
 }
