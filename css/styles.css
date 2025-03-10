@@ -21,22 +21,27 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-part {
   color: #2e2f42;
 }
 
-.nav-link {
+.item-nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-block;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.item-nav-link:hover,
+.item-nav-link:focus {
   color: #404bbf;
 }
 .address {
@@ -48,6 +53,8 @@ ol {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link:hover,
@@ -55,19 +62,27 @@ ol {
   color: #404bbf;
 }
 
-.service-ordering {
+.hero {
   background-color: #2e2f42;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 15px;
 }
 
-h1 {
+.hero-title {
+  font-weight: 700px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 600px;
 }
 
-.button {
+.hero-button {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -75,6 +90,12 @@ h1 {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 24px;
 }
 
 .button:hover,
@@ -179,13 +200,45 @@ img {
   display: block;
 }
 
-.container {
-  display: flex;
-  align-items: center;
+.section {
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.navigation {
+.container {
+  width: 1158px;
+}
+
+.header {
+  border-bottom: 1px solid #E7E9FC;
+  margin-bottom: 0;
+}
+
+.header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  gap: 76px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 1;
 }
 
 .features-list {
